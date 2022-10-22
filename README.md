@@ -1,6 +1,6 @@
-Projeto PokéDex
+-- PROJETO POKÉDEX --
 
-Desenvolvido por Vitor Campos
+Desenvolvido por Vitor Campos</br>
 Como primeiro projeto usando o framework Vue
 
 Este projeto foi desenvolvido como teste técnico,
