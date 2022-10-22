@@ -1,17 +1,17 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>PokéDex</h1>
+  <SearchBar />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SearchBar from "./components/SearchBar.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    SearchBar,
+  },
+};
 </script>
 
 <style>
@@ -22,5 +22,13 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+h1 {
+  color: white;
+}
+
+body {
+  background-color: red;
 }
 </style>
